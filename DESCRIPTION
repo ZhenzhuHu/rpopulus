@@ -1,0 +1,17 @@
+Package: rpopulus
+Type: Package
+Title: Common bioinformatic pipelines 
+Version: 0.0.0.9000
+Authors@R: person("Zhenzhu", "hu", email = "491756352@qq.com.com", role = c("aut", "cre"))
+Description: R pipeline for populus
+License: BSD 2-Clause License
+URL: https://github.com/ZhenzhuHu/rpopulus
+BugReports: https://github.com/ZhenzhuHu/rpopulus/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: R (>= 3.5.1),
+    tidyverse,
+    tidymodels
+Imports:
+    scales
